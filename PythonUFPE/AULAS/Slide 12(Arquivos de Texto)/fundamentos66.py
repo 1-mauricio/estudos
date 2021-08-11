@@ -4,7 +4,7 @@ while not fim:
     try:
         nome = input("Digite o nome do arquivo: ")
         arq = open(nome, 'r')
-        arq_esc = open('veicVelhos.txt', 'w')
+        arq_esc = open('Aulas\Slide 12(Arquivos de Texto)\veicVelhos.txt', 'w')
 
         with arq, arq_esc:
             for linha in arq:
