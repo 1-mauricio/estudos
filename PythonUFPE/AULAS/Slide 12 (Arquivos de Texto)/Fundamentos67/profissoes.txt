@@ -1,0 +1,7 @@
+100 Analista de Sistemas
+101 Jornalista
+102 Engenheiro Eletricista
+103 Médico
+104 Piloto
+105 Astronauta
+106 Enfermeiro
