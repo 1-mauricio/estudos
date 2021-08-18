@@ -1,0 +1,9 @@
+2 Parafuso 4mm Peq 3
+3 Parafuso 5mm Peq 20
+4 Parafuso 3mm Med 77
+5 Parafuso 4mm Med 50
+6 Parafuso 5mm Med 116
+10 Bucha Pequena 3mm 27
+12 Prego pequeno 225
+13 Prego Médio 197
+14 Prego Grande 58
