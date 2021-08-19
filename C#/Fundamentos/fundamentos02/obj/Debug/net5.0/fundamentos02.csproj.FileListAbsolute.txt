@@ -1,0 +1,16 @@
+C:\Workspace\C#\fundamentos02\bin\Debug\net5.0\fundamentos02.exe
+C:\Workspace\C#\fundamentos02\bin\Debug\net5.0\fundamentos02.deps.json
+C:\Workspace\C#\fundamentos02\bin\Debug\net5.0\fundamentos02.runtimeconfig.json
+C:\Workspace\C#\fundamentos02\bin\Debug\net5.0\fundamentos02.runtimeconfig.dev.json
+C:\Workspace\C#\fundamentos02\bin\Debug\net5.0\fundamentos02.dll
+C:\Workspace\C#\fundamentos02\bin\Debug\net5.0\ref\fundamentos02.dll
+C:\Workspace\C#\fundamentos02\bin\Debug\net5.0\fundamentos02.pdb
+C:\Workspace\C#\fundamentos02\obj\Debug\net5.0\fundamentos02.csproj.AssemblyReference.cache
+C:\Workspace\C#\fundamentos02\obj\Debug\net5.0\fundamentos02.GeneratedMSBuildEditorConfig.editorconfig
+C:\Workspace\C#\fundamentos02\obj\Debug\net5.0\fundamentos02.AssemblyInfoInputs.cache
+C:\Workspace\C#\fundamentos02\obj\Debug\net5.0\fundamentos02.AssemblyInfo.cs
+C:\Workspace\C#\fundamentos02\obj\Debug\net5.0\fundamentos02.csproj.CoreCompileInputs.cache
+C:\Workspace\C#\fundamentos02\obj\Debug\net5.0\fundamentos02.dll
+C:\Workspace\C#\fundamentos02\obj\Debug\net5.0\ref\fundamentos02.dll
+C:\Workspace\C#\fundamentos02\obj\Debug\net5.0\fundamentos02.pdb
+C:\Workspace\C#\fundamentos02\obj\Debug\net5.0\fundamentos02.genruntimeconfig.cache
