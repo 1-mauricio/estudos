@@ -1,0 +1,16 @@
+C:\Workspace\ESTUDOS\C#\Fundamentos\fundamentos07\bin\Debug\net5.0\fundamentos07.exe
+C:\Workspace\ESTUDOS\C#\Fundamentos\fundamentos07\bin\Debug\net5.0\fundamentos07.deps.json
+C:\Workspace\ESTUDOS\C#\Fundamentos\fundamentos07\bin\Debug\net5.0\fundamentos07.runtimeconfig.json
+C:\Workspace\ESTUDOS\C#\Fundamentos\fundamentos07\bin\Debug\net5.0\fundamentos07.runtimeconfig.dev.json
+C:\Workspace\ESTUDOS\C#\Fundamentos\fundamentos07\bin\Debug\net5.0\fundamentos07.dll
+C:\Workspace\ESTUDOS\C#\Fundamentos\fundamentos07\bin\Debug\net5.0\ref\fundamentos07.dll
+C:\Workspace\ESTUDOS\C#\Fundamentos\fundamentos07\bin\Debug\net5.0\fundamentos07.pdb
+C:\Workspace\ESTUDOS\C#\Fundamentos\fundamentos07\obj\Debug\net5.0\fundamentos07.csproj.AssemblyReference.cache
+C:\Workspace\ESTUDOS\C#\Fundamentos\fundamentos07\obj\Debug\net5.0\fundamentos07.GeneratedMSBuildEditorConfig.editorconfig
+C:\Workspace\ESTUDOS\C#\Fundamentos\fundamentos07\obj\Debug\net5.0\fundamentos07.AssemblyInfoInputs.cache
+C:\Workspace\ESTUDOS\C#\Fundamentos\fundamentos07\obj\Debug\net5.0\fundamentos07.AssemblyInfo.cs
+C:\Workspace\ESTUDOS\C#\Fundamentos\fundamentos07\obj\Debug\net5.0\fundamentos07.csproj.CoreCompileInputs.cache
+C:\Workspace\ESTUDOS\C#\Fundamentos\fundamentos07\obj\Debug\net5.0\fundamentos07.dll
+C:\Workspace\ESTUDOS\C#\Fundamentos\fundamentos07\obj\Debug\net5.0\ref\fundamentos07.dll
+C:\Workspace\ESTUDOS\C#\Fundamentos\fundamentos07\obj\Debug\net5.0\fundamentos07.pdb
+C:\Workspace\ESTUDOS\C#\Fundamentos\fundamentos07\obj\Debug\net5.0\fundamentos07.genruntimeconfig.cache
