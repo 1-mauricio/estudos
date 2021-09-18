@@ -1,0 +1,32 @@
+C:\Workspace\ESTUDOS\C#\Bootcamp\Primeiros Passos\test\obj\Debug\net5.0\test.csproj.AssemblyReference.cache
+C:\Workspace\ESTUDOS\C#\Bootcamp\Primeiros Passos\test\obj\Debug\net5.0\test.GeneratedMSBuildEditorConfig.editorconfig
+C:\Workspace\ESTUDOS\C#\Bootcamp\Primeiros Passos\test\obj\Debug\net5.0\test.AssemblyInfoInputs.cache
+C:\Workspace\ESTUDOS\C#\Bootcamp\Primeiros Passos\test\obj\Debug\net5.0\test.AssemblyInfo.cs
+C:\Workspace\ESTUDOS\C#\Bootcamp\Primeiros Passos\test\obj\Debug\net5.0\test.csproj.CoreCompileInputs.cache
+C:\Workspace\ESTUDOS\C#\Bootcamp\Primeiros Passos\test\bin\Debug\net5.0\test.exe
+C:\Workspace\ESTUDOS\C#\Bootcamp\Primeiros Passos\test\bin\Debug\net5.0\test.deps.json
+C:\Workspace\ESTUDOS\C#\Bootcamp\Primeiros Passos\test\bin\Debug\net5.0\test.runtimeconfig.json
+C:\Workspace\ESTUDOS\C#\Bootcamp\Primeiros Passos\test\bin\Debug\net5.0\test.runtimeconfig.dev.json
+C:\Workspace\ESTUDOS\C#\Bootcamp\Primeiros Passos\test\bin\Debug\net5.0\test.dll
+C:\Workspace\ESTUDOS\C#\Bootcamp\Primeiros Passos\test\bin\Debug\net5.0\ref\test.dll
+C:\Workspace\ESTUDOS\C#\Bootcamp\Primeiros Passos\test\bin\Debug\net5.0\test.pdb
+C:\Workspace\ESTUDOS\C#\Bootcamp\Primeiros Passos\test\obj\Debug\net5.0\test.dll
+C:\Workspace\ESTUDOS\C#\Bootcamp\Primeiros Passos\test\obj\Debug\net5.0\ref\test.dll
+C:\Workspace\ESTUDOS\C#\Bootcamp\Primeiros Passos\test\obj\Debug\net5.0\test.pdb
+C:\Workspace\ESTUDOS\C#\Bootcamp\Primeiros Passos\test\obj\Debug\net5.0\test.genruntimeconfig.cache
+C:\Workspace\ESTUDOS\C#\Projetos\Lendo e Gravando txt\bin\Debug\net5.0\test.exe
+C:\Workspace\ESTUDOS\C#\Projetos\Lendo e Gravando txt\bin\Debug\net5.0\test.deps.json
+C:\Workspace\ESTUDOS\C#\Projetos\Lendo e Gravando txt\bin\Debug\net5.0\test.runtimeconfig.json
+C:\Workspace\ESTUDOS\C#\Projetos\Lendo e Gravando txt\bin\Debug\net5.0\test.runtimeconfig.dev.json
+C:\Workspace\ESTUDOS\C#\Projetos\Lendo e Gravando txt\bin\Debug\net5.0\test.dll
+C:\Workspace\ESTUDOS\C#\Projetos\Lendo e Gravando txt\bin\Debug\net5.0\ref\test.dll
+C:\Workspace\ESTUDOS\C#\Projetos\Lendo e Gravando txt\bin\Debug\net5.0\test.pdb
+C:\Workspace\ESTUDOS\C#\Projetos\Lendo e Gravando txt\obj\Debug\net5.0\test.csproj.AssemblyReference.cache
+C:\Workspace\ESTUDOS\C#\Projetos\Lendo e Gravando txt\obj\Debug\net5.0\test.GeneratedMSBuildEditorConfig.editorconfig
+C:\Workspace\ESTUDOS\C#\Projetos\Lendo e Gravando txt\obj\Debug\net5.0\test.AssemblyInfoInputs.cache
+C:\Workspace\ESTUDOS\C#\Projetos\Lendo e Gravando txt\obj\Debug\net5.0\test.AssemblyInfo.cs
+C:\Workspace\ESTUDOS\C#\Projetos\Lendo e Gravando txt\obj\Debug\net5.0\test.csproj.CoreCompileInputs.cache
+C:\Workspace\ESTUDOS\C#\Projetos\Lendo e Gravando txt\obj\Debug\net5.0\test.dll
+C:\Workspace\ESTUDOS\C#\Projetos\Lendo e Gravando txt\obj\Debug\net5.0\ref\test.dll
+C:\Workspace\ESTUDOS\C#\Projetos\Lendo e Gravando txt\obj\Debug\net5.0\test.pdb
+C:\Workspace\ESTUDOS\C#\Projetos\Lendo e Gravando txt\obj\Debug\net5.0\test.genruntimeconfig.cache

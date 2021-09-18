@@ -7,14 +7,14 @@ namespace fundamentos05
         static void Main(string[] args)
         {
             //ARRAY
-
+/*
             string produto1 = "Sea of thieves";
             string produto2 = "FIFA";
             string produto3 = "Minecraft";
             string produto4 = "Half-life";
             string produto5 = "Portal";
             string produto6 = "CS";
-            
+ */           
             // não pode mudar o tamanho do array
             string[] produtos = new string[5] { 
                 "Sea of thieves", 
