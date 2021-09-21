@@ -1,16 +1,4 @@
-#include <stdio.h>
-#include <stdbool.h>
-
-int square(int input)
-{
-    return input * input;
-}
-
-int cube (int input)
-{
-    int x = input * input * input;
-    return x;
-}
+#include "libraries.h"
 
 int power(int input, int exponent)
 {
@@ -33,11 +21,15 @@ void changeVal(int *input)
     *input = 900000;
 }
 
-int main()
+int oldestValue(int ages[], int size)
 {
-    int x = 5;
-    changeVal(&x);
-    printf("%d\n", x);
-
-    return 0;
+    int largest = ages[0];
+    for (int i = 1; i < size; i++)
+    {
+        if (ages[i] > largest)
+        {
+            largest = ages[i];
+        }
+    }
+    return largest;
 }

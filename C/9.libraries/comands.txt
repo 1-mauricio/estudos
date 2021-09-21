@@ -1,0 +1,3 @@
+gcc -c libraries.c
+gcc -c main.c
+gcc main.o libraries.o
