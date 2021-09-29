@@ -1,18 +1,15 @@
+import sys
 def main():
-    lines = []
     largest = ""
     length = -1
-    try:
-        while True:
-            lines.append(input())
-    except:
-        pass
-    for line in lines:
+    for line in sys.stdin:
+        line = line[:-1]
+        qtd = line.count(',')
         if line != '[]':
-            qtd = line.count(",") + 1
-            if qtd > length:
-                length = qtd
-                largest = line
+            qtd += 1
+        if qtd > length:
+            length = qtd
+            largest = line
     
     print(largest)
         

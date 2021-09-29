@@ -4,7 +4,8 @@ class Aluno:
         self.__nome = initNome
 
     def inicializarNota(self, nota, numeroProva):
-        self.__nota = nota
+        if self.__numeroNota == 1:
+            self.__nota = nota
         self.__numeroNota = numeroProva
 
     def verificaSituacaoMedia(self):
