@@ -1,5 +1,9 @@
-@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
-
+body::before {
+    /* Ghost element */
+    display: block;
+    content: '';
+    height: 60px;
+}
 @media (min-width: 768px) {
     .news-input {
         width: 50%;
