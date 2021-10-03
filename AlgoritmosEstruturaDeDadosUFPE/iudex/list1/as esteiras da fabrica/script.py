@@ -3,7 +3,14 @@ class Node:
         self.valor = valor
         self.proximo = None
 
-class Fila:
+class Fabrica:
+    def __init__(self) -> None:
+        pass
+
+    def nova_esteira(self, numero):
+        self.esteira = Esteira()
+        self.esteira.numero = numero
+class Esteira:
     def __init__(self) -> None:
         self.primeiro = None
         self.ultimo = None
@@ -14,7 +21,7 @@ class Fila:
             self.primeiro = novo_node
             self.ultimo = novo_node
         else:
-            self.ultimo.proximo = novo_node
+            self.ultimo.anterior = novo_node
             self.ultimo = novo_node
 
     def remove(self):
@@ -23,13 +30,18 @@ class Fila:
             if self.primeiro == None:
                 self.ultimo = None
         else:
-            return f"Não há produtos para empacotar na esteira {}"
+            return f"Não há produtos para empacotar na esteira"
     def move(self):
-        
+        pass
 
 
 if __name__ == "__main__":
-    entrada = input()
+    pass
+
+
+
+
+    '''entrada = input()
     for linha in entrada:
         if "INS" in linha:
             lista = linha.split()
@@ -37,4 +49,4 @@ if __name__ == "__main__":
             codigo = lista[2]
         elif "RMV"
 
-        elif "ENF" in linha
+        elif "ENF" in linha'''

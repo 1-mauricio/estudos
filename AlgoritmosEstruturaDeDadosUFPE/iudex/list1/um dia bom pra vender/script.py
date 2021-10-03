@@ -1,3 +1,5 @@
+import sys
+
 class Node:
     def __init__(self, valor, anterior = None):
         self.valor = valor
@@ -14,7 +16,7 @@ class Pilha:
 
     def remove(self):
         assert self.topo
-        self.topo = self.top.anterior
+        self.topo = self.topo.anterior
 
     def info(self):
         topo = self.topo
@@ -24,7 +26,7 @@ class Pilha:
             contador += 1
             comparador = comparador.anterior
 
-        print(f"o ultimo valor foi {topo.valor} e hoje e um bom dia para vender ações dos ultimos {contador} dias".upper())
+        print(f"o ultimo valor foi {topo.valor} e hoje e um bom dia para vender acoes dos ultimos {contador} dias".upper())
 
     def __str__(self) -> str:
         output = []
@@ -35,15 +37,24 @@ class Pilha:
         
         return output
 
-
 if __name__ == "__main__":
+    lista = []
     pilha = Pilha()
-    pilha.insert(32)
-    pilha.info()
-    pilha.insert(34)
-    pilha.info()
-    pilha.insert(38)
-    pilha.info()
-    pilha.insert(15)
-    pilha.info()
+    try:
+        for line in sys.stdin:
+            lista.append(line)
+    except:
+        pass
+
+    qtd_comandos = int(lista[0])
+    i = 1
+    while i <= qtd_comandos:
+        line = lista[i].split()
+        comando = line[0]
+        qtd = line[-1]
+        if comando == "ATUALIZA":
+            pilha.insert(int(qtd))
+        else:
+            pilha.info()
+        i += 1
      
