@@ -1,0 +1,15 @@
+Nao ha produtos para empacotar na esteira I!
+O produto:  None  foi empacotado com sucesso!
+O produto: "Pipoca" foi adicionado na esteira 1
+O produto: "Chocolate" foi adicionado na esteira 1
+Pipoca Chocolate 
+O produto: "Pipoca" foi movido para a esteira 2
+O produto: "Chocolate" foi movido para a esteira 2
+Nao ha produtos para empacotar na esteira I!
+O produto: "None" foi movido para a esteira 2
+<__main__.NoProduto object at 0x00000232F47C70A0> <__main__.NoProduto object at 0x00000232F47E6F10> None 
+O produto:  <__main__.NoProduto object at 0x00000232F47C70A0>  foi empacotado com sucesso!
+<__main__.NoProduto object at 0x00000232F47E6F10> None 
+O produto:  <__main__.NoProduto object at 0x00000232F47E6F10>  foi empacotado com sucesso!
+None 
+O produto: "Guarana" foi adicionado na esteira 2

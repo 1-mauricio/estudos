@@ -1,0 +1,15 @@
+3
+RMV 1
+INS 1 Pipoca
+INS 1 Chocolate
+SHW 1
+MOV 1 2
+MOV 1 2
+MOV 1 2
+SHW 2
+RMV 2
+SHW 2
+RMV 2
+SHW 2
+INS 2 Guarana
+END

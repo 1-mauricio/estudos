@@ -11,50 +11,44 @@ class Pilha:
 
     def insert(self, valor):
         novo_node = Node(valor, self.topo)
-        # novo_node.anterior = self.topo
         self.topo = novo_node
 
     def remove(self):
-        assert self.topo
-        self.topo = self.topo.anterior
+        if self.topo != None:
+            self.topo = self.topo.anterior
 
     def info(self):
-        topo = self.topo
         comparador = self.topo
         contador = 0
-        while comparador != None and topo.valor >= comparador.valor:
+        while comparador != None and self.topo.valor >= comparador.valor:
             contador += 1
             comparador = comparador.anterior
 
-        print(f"o ultimo valor foi {topo.valor} e hoje e um bom dia para vender acoes dos ultimos {contador} dias".upper())
-
-    def __str__(self) -> str:
-        output = []
-        aux = self.topo
-        while aux != None:
-            output.append(str(aux.valor) + " ")
-            aux = aux.anterior
+        print("O ULTIMO VALOR FOI", self.topo.valor, "E HOJE E UM BOM DIA PARA VENDER ACOES DOS ULTIMOS", contador, "DIAS")
         
-        return output
 
-if __name__ == "__main__":
-    lista = []
+if __name__ == '__main__':
     pilha = Pilha()
+    i = 0
     try:
         for line in sys.stdin:
-            lista.append(line)
+            if i == 0:
+                qtd_comandos = int(line)
+                '''if qtd_comandos >= 997 or qtd_comandos <= 5:
+                    exit()'''
+                i = 1
+            else:
+                if i <= qtd_comandos:
+                    entrada = line.split()
+                    comando = entrada[0]
+                    qtd = int(entrada[-1])
+                    if comando == 'ATUALIZA':
+                        '''if qtd <= 485 and qtd >= 1:'''
+                        pilha.insert(qtd)
+                    else:
+                        pilha.info()
+                    
+                    i += 1
+
     except:
         pass
-
-    qtd_comandos = int(lista[0])
-    i = 1
-    while i <= qtd_comandos:
-        line = lista[i].split()
-        comando = line[0]
-        qtd = line[-1]
-        if comando == "ATUALIZA":
-            pilha.insert(int(qtd))
-        else:
-            pilha.info()
-        i += 1
-     
