@@ -1,6 +1,11 @@
+.container {
+    width: 80%;
+    margin: auto;
+}
+
 .wrapper {
     display: grid;
-    grid-template-columns: 70% 30%;
+    grid-template-columns: 50% 50%;
     
     grid-column-gap: 1em; /*margin */
     grid-row-gap:1em; /*margin top*/
@@ -11,6 +16,18 @@
 .wrapper > div{
     background: #eee;
     padding: 1em;
+}
+
+.wrapper div:hover {
+    box-shadow:
+  6.7px 6.7px 31.2px rgba(0, 0, 0, 0.015),
+  14px 14px 43.4px rgba(0, 0, 0, 0.024),
+  22.3px 22.3px 52.5px rgba(0, 0, 0, 0.031),
+  32.4px 32.4px 62.5px rgba(0, 0, 0, 0.039),
+  46.9px 46.9px 78.1px rgba(0, 0, 0, 0.049),
+  100px 100px 123px rgba(0, 0, 0, 0.07)
+;
+
 }
 
 .wrapper > div:nth-child(odd) {

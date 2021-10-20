@@ -97,39 +97,3 @@ if __name__ == "__main__":
 
             elif entrada == "END":
                 exit()
-
-    '''i = 0
-    for line in sys.stdin:
-        if i == 0:
-            qtd = int(line)
-            while qtd >= 1:
-                fabrica.append(Esteira())  
-                qtd -= 1  
-            i = 1
-        else:
-            entrada = line.split()
-            if entrada[0] == "INS":
-                esteira = fabrica[int(entrada[1])-1]
-                produto = entrada[2]
-                esteira.insert(produto, entrada[1])
-            elif entrada[0] == "RMV":
-                esteira = fabrica[int(entrada[1])-1]
-                esteira.remove()
-            elif entrada[0] == "MOV":
-                pass
-            elif entrada[0] == "SHW":
-                esteira = fabrica[int(entrada[1])-1]
-                esteira.show()
-            elif entrada[0] == "END":
-                exit()'''
-    
-    '''fabrica[0].remove()
-    fabrica[0].insert("Pipoca", "1")
-    fabrica[0].insert("Chocolate", "1")
-    fabrica[0].insert("Comida", "1")
-    fabrica[0].show()
-
-    fabrica[0].remove()
-    fabrica[1].insert("Pipoca", "2")
-    fabrica[0].show()
-    fabrica[1].show()'''
