@@ -70,6 +70,34 @@ class Arvore:
         else:
             y.direita = z
 
+    def em_ordem(self, no):
+        if no != None:
+            self.em_ordem(no.direita)
+            print(no.valor)
+            self.em_ordem(no.esquerda)
+            
+            
+    def pos_ordem(self, no):
+        if no == None: return 0
+        alt_esquerdo = self.pos_ordem(no.esquerda)
+        alt_direito = self.pos_ordem(no.direita)
+        if alt_esquerdo > alt_direito:
+            altura = alt_esquerdo + 1
+        elif alt_direito < alt_direito:
+            altura = alt_direito + 1
+        else:
+            altura = alt_esquerdo + 1
+
+        return altura
+
+    def pre_ordem(self, no):
+        if no != None:
+            print(no.valor)
+            self.pre_ordem(no.esquerda)
+            self.pre_ordem(no.direita)
+
+
+
 if __name__ == "__main__":
     qtd = int(input())
     arvore = Arvore()
@@ -97,3 +125,9 @@ if __name__ == "__main__":
 
             else:
                 print("{} vem apos {} e antes de {}" .format(x.nome, antecessor.nome, sucessor.nome))
+
+
+
+    arvore.em_ordem(arvore.raiz)
+    print()
+    print(arvore.pre_ordem(arvore.raiz.direita))

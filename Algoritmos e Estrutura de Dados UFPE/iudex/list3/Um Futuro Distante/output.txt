@@ -1,0 +1,8 @@
+Felipe foi adicionado com sucesso!
+A altura da arvore eh: 1
+A altura da arvore eh: 1
+O maior eh: Felipe
+Wesley foi adicionado com sucesso!
+Wesley deletado com sucesso.
+Felipe deletado com sucesso.
+PRE-ORDER DA ARVORE:
