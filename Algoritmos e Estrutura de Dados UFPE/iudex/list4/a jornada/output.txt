@@ -1,0 +1,2 @@
+[[5, 12], [9, 10], [12, 11], [17, 4], [19, 9], [21, 2]]
+E preciso no minimo 2 paradas para chegar no destino.
