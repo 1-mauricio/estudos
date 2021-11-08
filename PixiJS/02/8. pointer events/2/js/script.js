@@ -1,9 +1,15 @@
 let app
+let r1
+let r2
+let r3
+
 let pointerIsDown = false
 let pointerIsOver = false
 const NORMAL = 0xffffff
 const OVER = 0x00ff00
 const DOWN = 0xff0000
+const RECT_W = 100
+const RECT_H = 100
 
 window.onload = function() {
     app = new PIXI.Application({
@@ -13,33 +19,13 @@ window.onload = function() {
     })
     document.querySelector('#gameDiv').appendChild(app.view)
 
-    let rect = new PIXI.Graphics()
-    rect.beginFill(NORMAL)
-    rect.drawRect((app.view.width/2)-100, (app.view.height/2)-100, 200, 200)
-    rect.endFill()
-    rect.interactive = true
-    rect.buttonMode = true
-    rect.on('pointerup', doPointerUp)
-    rect.on('pointerdown', doPointerDown)
-    rect.on('pointerover', doPointerOver)
-    rect.on("pointerout", doPointerOut);
-    rect.on("pointerupoutside", doPointerUpOutside);
-    let rectShadow = new PIXI.Graphics();
-    rectShadow.beginFill(0x555555);
-    rectShadow.drawRect(
-        app.view.width / 2 - 92,
-        app.view.height / 2 - 92,
-        200,
-        200
-    );
-    rectShadow.endFill();
-    rectShadow.alpha = 0.4;
-    rectShadow.blendMode = PIXI.BLEND_MODES.EXCLUSION;
-    app.stage.addChild(rectShadow);
+	r1 = createRect(100, 450, RECT_W, RECT_H, "rect01", 20)
+	r2 = createRect(300, 450, RECT_W, RECT_H, "rect02", 40)
+	r3 = createRect(500, 450, RECT_W, RECT_H, "rect03", 80)
 
-
-    app.stage.addChild(rect)
-
+	app.stage.addChild(r1)
+	app.stage.addChild(r2)
+	app.stage.addChild(r3)
 
     app.ticker.add(gameLoop)
     
@@ -49,17 +35,39 @@ function gameLoop(delta) {
 
 }
 
+function createRect(x,y,w,h,name,speed) {
+	let rect = new PIXI.Graphics()
+
+    rect.beginFill(NORMAL)
+    rect.drawRect(x, y, w, h)
+    rect.endFill()
+    rect.interactive = true
+    rect.buttonMode = true
+
+    rect.on('pointerup', doPointerUp)
+    rect.on('pointerdown', doPointerDown)
+    rect.on('pointerover', doPointerOver)
+    rect.on("pointerout", doPointerOut)
+    rect.on("pointerupoutside", doPointerUpOutside)
+
+	rect.name = name
+	rect.speed = speed
+
+	return rect
+}
+
 function doPointerUp() {
-    pointerIsDown = false
-    if (!pointerIsOver) {
+    if (pointerIsOver) {
         this.tint = NORMAL
+		this.y = this.y - this.speed
+		console.log("moving -> " + this.name)
     } else {
         this.tint = OVER       
     }
-
+    pointerIsDown = false
 }
 
-  function doPointerDown() {
+function doPointerDown() {
     this.tint = DOWN
     pointerIsDown = true
 }
@@ -69,7 +77,6 @@ function doPointerUp() {
       this.tint = OVER
       pointerIsOver = true
     }
-    aaa()
   }
   
 
@@ -86,18 +93,3 @@ function doPointerUp() {
     pointerIsDown = false
   }
 
-
-
-function aaa() {
-    if (pointerIsOver){
-      console.log('test')
-      
-      this.on("pointerout", doPointerOut);
-      
-      setTimeout(test)
-    }
-}
-
-function test(i){
-  console.log(i)
-}
